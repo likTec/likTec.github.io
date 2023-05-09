@@ -33,7 +33,7 @@ body{
 }
 
 aside img{
-    width: 110px;
+    width: 150px;
     height: auto;
     margin-left: 60px;
     margin-top: -40px;
@@ -81,7 +81,7 @@ h2{
     margin-top: 12px;
     margin-left: 5px;
 }
-.box-rate img{
+.box-rate{
     width: 30px;
     height: 30px;
     float:left;
