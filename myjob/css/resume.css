@@ -49,46 +49,41 @@ h2{
     font-size: 30px;
     margin: 10px 0;
 }
-.basic-info{
+.basic-info img{
     width: 32px;
     height: 32px;
-    content: url(images/box-info.png);
     float:left;
     margin-right: 3px;
     margin-top: 10px;
     margin-left: 5px;
 }
-.box-eda{
+.box-eda img{
     width: 35px;
     height: 33px;
-    content: url(images/box-eda.png);
     float:left;
     margin-right: 3px;
     margin-top: 12px;
     margin-left: 5px;
 }
-.box-sch{
+.box-sch img{
     width: 30px;
     height: 30px;
-    content: url(images/box-sch.png);
     float:left;
     margin-right: 3px;
     margin-top: 12px;
     margin-left: 5px;
 }
-.box-skill{
+.box-skill img{
     width: 30px;
     height: 30px;
-    content: url(images/box-skill.png);
     float:left;
     margin-right: 3px;
     margin-top: 12px;
     margin-left: 5px;
 }
-.box-rate{
+.box-rate img{
     width: 30px;
     height: 30px;
-    content: url(images/box-rate.png);
     float:left;
     margin-right: 3px;
     margin-top: 12px;
