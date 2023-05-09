@@ -1,0 +1,116 @@
+*{
+    box-sizing: border-box;
+    margin: 0 ;
+    padding: 0;
+}
+body{
+    /* background-color: #eee; */
+    margin: 20px 0;
+}
+.container{
+    width:21cm;
+    min-height: 29.7cm;
+    background: white;
+    margin: 0 auto;
+    overflow: auto;
+    padding: 1em 1em;
+    box-shadow: 0 0 15px grey;
+    font-family: "黑体";
+    font-weight: bolder;
+}
+.info-content{
+    border: 2px solid #154864;
+    padding: 2em;
+    background-color: #eee;
+}
+/* 基本信息 */
+.content{
+    display: grid;
+    grid-template-columns: 1fr 1fr 250px;
+}
+.info-left p,.info-right p{
+    margin: 15px 0;
+}
+
+aside img{
+    width: 150px;
+    height: auto;
+    margin-left: 60px;
+    margin-top: -40px;
+}
+
+h2{
+    background-color:#4DADDB;
+    border-radius: 25%;
+    width: 172px;
+    height: 50px;
+    line-height: 50px;
+    color: white;
+    font-size: 30px;
+    margin: 10px 0;
+}
+.basic-info{
+    width: 32px;
+    height: 32px;
+    content: url(images/box-info.png);
+    float:left;
+    margin-right: 3px;
+    margin-top: 10px;
+    margin-left: 5px;
+}
+.box-eda{
+    width: 35px;
+    height: 33px;
+    content: url(images/box-eda.png);
+    float:left;
+    margin-right: 3px;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+.box-sch{
+    width: 30px;
+    height: 30px;
+    content: url(images/box-sch.png);
+    float:left;
+    margin-right: 3px;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+.box-skill{
+    width: 30px;
+    height: 30px;
+    content: url(images/box-skill.png);
+    float:left;
+    margin-right: 3px;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+.box-rate{
+    width: 30px;
+    height: 30px;
+    content: url(images/box-rate.png);
+    float:left;
+    margin-right: 3px;
+    margin-top: 12px;
+    margin-left: 5px;
+}
+li{
+    list-style: none;
+    line-height: 40px;
+}
+.eda-sch{
+    display: grid;
+    grid-template-columns: 1.5fr 2fr 1.5fr 1fr;
+    text-align: center;
+    font-weight: bold;
+    font-size: 20px;
+    color: #393D7F;
+}
+/* 校内经历 */
+.box1 ,.box2,.box3{
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+    font-size: 20px;
+    color:#393D7F;
+}
+
